@@ -16,6 +16,7 @@
   width: 100%;
   height: 100vh;
   background: rgb(0,0,0,0.1);
+
  
 
 
@@ -108,4 +109,73 @@ justify-content: center;
 .scaleRight{
   animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) reverse both;
  
+}
+
+
+
+
+@media (max-width: 1366px){
+  .wrapper{
+    .content {
+      .modal{
+       width: 850px;
+       min-height: 650px;
+    
+      }
+
+    }
+
+  }
+ 
+ 
+
+}
+@media (max-width: 1152px){
+ 
+  .wrapper .content .modal {
+    width: 730px;
+    height: 620px;
+    .modalLeft{
+      padding-left: 35px;
+      .mediumSize{ 
+        img{
+          width: 80%;
+        }
+  
+    } 
+
+  
+    }
+
+    
+  
+
+  
+   
+
+    
+  }
+ 
+ 
+  
+ 
+}
+@media (max-width: 768px){
+  .wrapper .content .modal{
+    flex-direction: column;
+    width: 100%;
+    min-height: 720px;
+    .modalRight{
+      padding-bottom: 50px ;
+      padding-top: 0px;
+    }
+    .modalLeft{
+      height: 35%;
+      .mediumSize img{
+        width: 40%;
+      
+      }
+    }
+
+  }
 }

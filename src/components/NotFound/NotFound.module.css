@@ -1,0 +1,21 @@
+.notFound {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0% auto;
+  font-weight: bolder;
+}
+.notFound h1 {
+  font-size: 68px;
+}
+.notFound span {
+  font-size: 50px;
+}
+.notFound p {
+  font-size: 22px;
+  font-weight: 400;
+}/*# sourceMappingURL=NotFound.module.css.map */

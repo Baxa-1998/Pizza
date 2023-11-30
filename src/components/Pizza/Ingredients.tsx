@@ -56,7 +56,7 @@ function getPrice (id: number) {
   
   return (
     <div>
-      <div className="flex justify-between flex-wrap gap-[5px]">
+      <div className="flex justify-between md:flex-wrap gap-[0px] md:gap-[5px]">
         {ingredients?.map((item) => (
           <div onClick={()=> getPrice(item.id)} className='w-[105px] h-[154px]'>
             {' '}
@@ -65,10 +65,10 @@ function getPrice (id: number) {
 
               <img src={item.img} alt="" />
             </div>
-            <h3 className="text-[14px] text-center">
+            <h3 className="text-[14px] text-start md:text-center">
               {item.title}
             </h3>
-            <p className="text-[14px] text-[#FF7010] font-semibold text-center">{item.price} ₽</p>
+            <p className="text-[14px] text-[#FF7010] font-semibold text-start md:text-center">{item.price} ₽</p>
           </div>
         ))}
       </div>

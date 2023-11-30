@@ -1,0 +1,59 @@
+.menuWrap .menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.menuWrap .menu .menuItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 135px;
+  height: 104px;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+  transition: 300ms ease-in;
+  cursor: pointer;
+}
+.menuWrap .menu .menuItem::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #FF7010;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  transition: 300ms ease-in;
+}
+.menuWrap .menu .menuItem:hover::before {
+  visibility: visible;
+  height: 100%;
+}
+.menuWrap .menu .menuItem .title {
+  margin-top: 8px;
+  font-size: 18px;
+}
+.menuWrap .menu .menuItem:hover .title {
+  color: white;
+  z-index: 999;
+}
+
+@media (max-width: 1440px) {
+  .menuWrap .menu .menuItem {
+    width: 115px;
+  }
+}
+@media (max-width: 1110px) {
+  .menuWrap {
+    width: 100%;
+    overflow: scroll;
+  }
+  .menuWrap .menu {
+    width: 1150px;
+  }
+}/*# sourceMappingURL=Menu.module.css.map */

@@ -1,0 +1,141 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-out-left {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.wrapper {
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+  z-index: 5;
+}
+.wrapper .content {
+  display: flex;
+}
+.wrapper .content .modal {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  height: 680px;
+  background: white;
+  border-radius: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.wrapper .content .modalLeft {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.wrapper .content .modalLeft .bigSize {
+  visibility: hidden;
+  border: 1px solid dashed;
+}
+.wrapper .content .modalLeft .mediumSize {
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper .content .modalLeft .smallSize {
+  position: absolute;
+  border-radius: 50%;
+  visibility: hidden;
+}
+.wrapper .content .modalLeft .active {
+  visibility: visible;
+  border: 1px dashed black;
+}
+.wrapper .modalRight {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 34px;
+}
+
+.show {
+  visibility: visible;
+}
+
+.scaleIn {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.scaleOut {
+  animation: slide-out-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.scaleRight {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+}
+
+@media (max-width: 1366px) {
+  .wrapper .content .modal {
+    width: 850px;
+    min-height: 650px;
+  }
+}
+@media (max-width: 1152px) {
+  .wrapper .content .modal {
+    width: 730px;
+    height: 620px;
+  }
+  .wrapper .content .modal .modalLeft {
+    padding-left: 35px;
+  }
+  .wrapper .content .modal .modalLeft .mediumSize img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper .content .modal {
+    flex-direction: column;
+    width: 100%;
+    min-height: 720px;
+  }
+  .wrapper .content .modal .modalRight {
+    padding-bottom: 50px;
+    padding-top: 0px;
+  }
+  .wrapper .content .modal .modalLeft {
+    height: 35%;
+  }
+  .wrapper .content .modal .modalLeft .mediumSize img {
+    width: 40%;
+  }
+}/*# sourceMappingURL=Modal.module.css.map */

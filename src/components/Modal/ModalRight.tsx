@@ -75,7 +75,7 @@ export const ModalRight: React.FC<ModalRightType> = ({
           <img src="/info.png" alt="" />
         </div>
       </div>
-      <div className="mt-[25px]">
+      <div className="mt-[0px] md:mt-[25px]">
         <PizzaSelector
       
           types={type}

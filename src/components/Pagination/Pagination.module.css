@@ -1,0 +1,16 @@
+.wrapper {
+  color: white;
+}
+.wrapper li {
+  color: white;
+}
+.wrapper li button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #fff;
+}
+.wrapper li button:hover {
+  background: #ff5722;
+  color: #fff;
+}/*# sourceMappingURL=Pagination.module.css.map */
