@@ -1,0 +1,24 @@
+.notFound{
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0% auto;
+
+  font-weight: bolder;
+  h1{
+    font-size: 68px;
+  }
+  span{
+    font-size: 50px;
+  
+  }
+  p{
+    font-size: 22px;
+    font-weight: 400;
+  }
+ 
+}

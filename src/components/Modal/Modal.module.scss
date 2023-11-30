@@ -1,0 +1,111 @@
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes slide-out-left{0%{transform:translateX(0);opacity:1}100%{transform:translateX(-1000px);opacity:0}} 
+@keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+.wrapper{
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0,0,0,0.1);
+ 
+
+
+
+
+  transition: 500ms;
+  z-index: 5; 
+
+  .content{
+    display: flex; 
+    
+
+     .modal{
+    display: flex;
+    width: 900px; 
+    justify-content: space-between;
+    height: 680px; 
+    background: #ffff; 
+    border-radius: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+ 
+
+
+   } 
+   .modalLeft{
+    position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+    height: 100%;
+    .bigSize{
+      visibility: hidden;
+      border: 1px solid dashed;
+     
+      
+    }
+    .mediumSize{
+      position: absolute;
+      
+      border-radius: 50%;
+      
+
+
+    }
+    .smallSize{
+      position: absolute;
+    
+      border-radius: 50%;
+      visibility: hidden;
+    }
+
+  .active{
+    visibility: visible;
+    border: 1px dashed black;
+  
+  }
+ 
+
+   }
+  }
+  .modalRight{
+   
+  
+    height: fit-content;
+    padding-top: 34px; 
+  
+  }
+
+
+
+
+
+
+}
+.show{
+
+  visibility: visible;
+}
+.scaleIn{
+  animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+  
+}
+.scaleOut{
+  animation:slide-out-left .5s cubic-bezier(.55,.085,.68,.53) both;
+}
+.scaleRight{
+  animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) reverse both;
+ 
+}

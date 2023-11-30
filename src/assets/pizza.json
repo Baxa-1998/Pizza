@@ -1,0 +1,768 @@
+[
+  
+  {
+    "pizza" : [ 
+    {
+   "id": 0,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+   "title": "Пепперони Фреш с перцем",
+   "types": [
+    0,
+    1
+   ], 
+   "sizes": [
+    26,
+    30,
+    40
+   ],
+   "price": 803,
+   "category": 1,
+   "rating": 4,
+   "ingredients" : 
+    [
+      { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+    ]
+   
+  },
+  {
+   "id": 1,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+   "title": "Сырная",
+   "types": [
+    0
+   ],
+   "sizes": [
+    26,
+    40
+   ],
+   "price": 245,
+   "category": 1,
+   "rating": 6,
+   "ingredients" : 
+   [
+    { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+   ]
+  },
+  {
+   "id": 2,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+   "title": "Цыпленок барбекю",
+   "types": [
+    0
+   ],
+   "sizes": [
+    26,
+    40
+   ],
+   "price": 295,
+   "category": 1,
+   "rating": 4,
+   "ingredients" : 
+   [
+    { 
+      "id" : 1,
+      "title": "сырный тортик", 
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+      "price" : 179,
+      "active" : false 
+
+    },
+    {
+      "id" : 2,
+      "title": "сливочная моцарелла",  
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+      "price" : 79,
+      "active" : false
+
+      
+    },
+    {
+      "id" : 3,
+      "title": "чедер и пармезан",   
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+      "price" : 79,
+      "active" : false
+
+      
+    },
+    { 
+      "id" : 4,
+      "title": "острый халапенью",  
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+      "price" : 59, 
+      "active" : false
+      
+    }
+
+   ]
+  },
+  {
+   "id": 3,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+   "title": "Кисло-сладкий цыпленок",
+   "types": [
+    1
+   ],
+   "sizes": [
+    26,
+    30,
+    40
+   ],
+   "price": 275,
+   "category": 2,
+   "rating": 2,
+   "ingredients" : 
+   [
+    { 
+      "id" : 1,
+      "title": "сырный тортик", 
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+      "price" : 179,
+      "active" : false 
+
+    },
+    {
+      "id" : 2,
+      "title": "сливочная моцарелла",  
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+      "price" : 79,
+      "active" : false
+
+      
+    },
+    {
+      "id" : 3,
+      "title": "чедер и пармезан",   
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+      "price" : 79,
+      "active" : false
+
+      
+    },
+    { 
+      "id" : 4,
+      "title": "острый халапенью",  
+      "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+      "price" : 59, 
+      "active" : false
+      
+    }
+
+   ]
+  },
+  {
+   "id": 4,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+   "title": "Чизбургер-пицца",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    26,
+    30,
+    40
+   ],
+   "price": 415,
+   "category": 3,
+   "rating": 8,
+   "ingredients" : 
+   [
+    { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+   ]
+  },
+  {
+   "id": 5,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+   "title": "Крэйзи пепперони",
+   "types": [
+    0
+   ],
+   "sizes": [
+    30,
+    40
+   ],
+   "price": 580,
+   "category": 2,
+   "rating": 2, 
+   "ingredients" : 
+   [
+    { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+   ]
+  },
+  {
+   "id": 6,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+   "title": "Пепперони",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    26,
+    30,
+    40
+   ],
+   "price": 675,
+   "category": 1,
+   "rating": 9, 
+   "ingredients" : 
+   [
+    { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+   ]
+  },
+  {
+   "id": 7,
+   "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+   "title": "Маргарита",
+   "types": [
+    0,
+    1
+   ],
+   "sizes": [
+    26,
+    30,
+    40
+   ],
+   "price": 450,
+   "category": 4,
+   "rating": 10, 
+   "ingredients" : 
+   [
+    { 
+        "id" : 1,
+        "title": "сырный тортик", 
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+        "price" : 179,
+        "active" : false 
+
+      },
+      {
+        "id" : 2,
+        "title": "сливочная моцарелла",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      {
+        "id" : 3,
+        "title": "чедер и пармезан",   
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 79,
+        "active" : false
+
+        
+      },
+      { 
+        "id" : 4,
+        "title": "острый халапенью",  
+        "img" : "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+        "price" : 59, 
+        "active" : false
+        
+      }
+
+   ]
+  }
+],
+"sushi" : [
+  {
+    "id": 8,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/48f8/03d8/6817b41c7d5cdb4a47d52db3e4be9d38?Expires=1699228800&Signature=QlO6bP-N65vW999UUIqCPt-9lCLiAlgzm1XUoF65k2Ynf5dUiRsZR7uI1hP6Y7acWD6cBszRJqsk8q9OSSLgpELvgC88oWKmvErJeN2TOy7~fo3f4134TWc74QPAHC4lmu403U9NeF6KB1vQMYPfy~PzAU4x0mhyMQYsbXY7TyU38IHPzP2xJUyo-nV0v-AIsC7SlUF-oe0LdyDRkFjhZXsxnIdu9K4hwGNDqAGLNn50nl9FUOD9LYVULt17cR3DAx0xVwU2hGtM8otSxGhZGJcDORFkzjPWnn1~VSWyN~geepyaE-LrHDtgc67Fq7Ef~bxWBElGCORxbWZiRnYFZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Филадельфия кранч",
+    "price": 475,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/dd6e/8cb0/8006a41854c4e0ad3601b26c797d0185?Expires=1699228800&Signature=nVlgGCY1AFPPJ0ghh9rTiW8q8h54ZRLbRsgsRTyo-he7ca409JjBzXrxkjJu3Yez-mQRSIq6xJjzjYwknKAOk65ygz5Dm31NqRrYeI4IJVMFA2XwgScMi-FsFxOebju86GPXwwRuoQNc8K4Ok54Fii25B-Qinr6oPe~NS3fdbnZIuPdNgIhmttJ~ycf1ggYuaPPTPEvMWFacUVFNZp3cbPqr~0AdZi8JW-~bEQ87O9h1zu0ifnbViKYPm2NUY11Uo1YnK9eZC6SIB4pLc0wWkbiSZbZfsKqll8pfcGCYM5~~Xz99ONpKXMwkfUvGCgGOPtySOKykh7MRA~IQASQAAQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Филадельфия крем-брюле",
+    "price": 395,
+    "rating": 6
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/96ee/65eb/c0ef7b440c0e1b2e111459b9a849a0e3?Expires=1699228800&Signature=UYE-rxsSUNq0Hn3SZlMA8PQRKl8W1x8sbGUGfS8rAMakr7eA4J~Q5RIh0snbgRRGkUie16ITaV6thHAaKzlkdKdFQUuE3CW4pserfyQ1r2zs48Lj5eRGu0WWSx4w0OZIj1tPp9~eR63cEQLCOz-QzNx2tQRabaSISct~K9NDXlLiMyq-2mmGX4n9GLYTCcJveRO~21-urfE98SEFqtApkJl1E1Aw-jmWZWa4yqqMgYrnwbkiPHUchRcd81YgYbtSePakqlSjVBGOtKZqhGVQGst9ZCTt2svdCiSZ~ktAhhF67I3s1QKvDq~u~Y5R4RuTPTk7m36UWnroT2dvsPfL0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Супер Филадельфия",
+    "price": 425,
+    "rating": 3
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/2c7e/d3e1/ae95a394418596db0a9d227b24a08fce?Expires=1699228800&Signature=H09ERLVxyGm2jHv-tcJAyGoI3uSe2q9h-MtX3J6-CPNNRYFXEhDR3-yGsmALhcjddBvthnDoTuQNK8Tgc5dzbcu1MDrAbT2BzC5XGi1iygWrK~tsED8OGEZIp4aNQtkKwcY-xg92~YpI~xOgGBdouheQcX75jJeQtwElHrUmhwyoecz~Pdg7mg1ExJyoQSCA5xy4Am4L3vOb6MA64FNGh8H6k67JMsR4ZrJSScGXSQl9HyadSPXixVQZg~Q5RFC8L~AKkLTQnB0uO6T4wtw0OyxoC0jM9WN03EcZNfxnZ~eVN05nFL1GmcLz56yOTe8vBi3vDGU9OHzblSP2gJp18w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Тигр мама",
+    "price": 525,
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/2c7e/d3e1/ae95a394418596db0a9d227b24a08fce?Expires=1699228800&Signature=H09ERLVxyGm2jHv-tcJAyGoI3uSe2q9h-MtX3J6-CPNNRYFXEhDR3-yGsmALhcjddBvthnDoTuQNK8Tgc5dzbcu1MDrAbT2BzC5XGi1iygWrK~tsED8OGEZIp4aNQtkKwcY-xg92~YpI~xOgGBdouheQcX75jJeQtwElHrUmhwyoecz~Pdg7mg1ExJyoQSCA5xy4Am4L3vOb6MA64FNGh8H6k67JMsR4ZrJSScGXSQl9HyadSPXixVQZg~Q5RFC8L~AKkLTQnB0uO6T4wtw0OyxoC0jM9WN03EcZNfxnZ~eVN05nFL1GmcLz56yOTe8vBi3vDGU9OHzblSP2gJp18w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Тигр мама",
+    "price": 525,
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/96ee/65eb/c0ef7b440c0e1b2e111459b9a849a0e3?Expires=1699228800&Signature=UYE-rxsSUNq0Hn3SZlMA8PQRKl8W1x8sbGUGfS8rAMakr7eA4J~Q5RIh0snbgRRGkUie16ITaV6thHAaKzlkdKdFQUuE3CW4pserfyQ1r2zs48Lj5eRGu0WWSx4w0OZIj1tPp9~eR63cEQLCOz-QzNx2tQRabaSISct~K9NDXlLiMyq-2mmGX4n9GLYTCcJveRO~21-urfE98SEFqtApkJl1E1Aw-jmWZWa4yqqMgYrnwbkiPHUchRcd81YgYbtSePakqlSjVBGOtKZqhGVQGst9ZCTt2svdCiSZ~ktAhhF67I3s1QKvDq~u~Y5R4RuTPTk7m36UWnroT2dvsPfL0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Супер Филадельфия",
+    "price": 425,
+    "rating": 3
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/48f8/03d8/6817b41c7d5cdb4a47d52db3e4be9d38?Expires=1699228800&Signature=QlO6bP-N65vW999UUIqCPt-9lCLiAlgzm1XUoF65k2Ynf5dUiRsZR7uI1hP6Y7acWD6cBszRJqsk8q9OSSLgpELvgC88oWKmvErJeN2TOy7~fo3f4134TWc74QPAHC4lmu403U9NeF6KB1vQMYPfy~PzAU4x0mhyMQYsbXY7TyU38IHPzP2xJUyo-nV0v-AIsC7SlUF-oe0LdyDRkFjhZXsxnIdu9K4hwGNDqAGLNn50nl9FUOD9LYVULt17cR3DAx0xVwU2hGtM8otSxGhZGJcDORFkzjPWnn1~VSWyN~geepyaE-LrHDtgc67Fq7Ef~bxWBElGCORxbWZiRnYFZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Филадельфия кранч",
+    "price": 475,
+    "rating": 5
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/dd6e/8cb0/8006a41854c4e0ad3601b26c797d0185?Expires=1699228800&Signature=nVlgGCY1AFPPJ0ghh9rTiW8q8h54ZRLbRsgsRTyo-he7ca409JjBzXrxkjJu3Yez-mQRSIq6xJjzjYwknKAOk65ygz5Dm31NqRrYeI4IJVMFA2XwgScMi-FsFxOebju86GPXwwRuoQNc8K4Ok54Fii25B-Qinr6oPe~NS3fdbnZIuPdNgIhmttJ~ycf1ggYuaPPTPEvMWFacUVFNZp3cbPqr~0AdZi8JW-~bEQ87O9h1zu0ifnbViKYPm2NUY11Uo1YnK9eZC6SIB4pLc0wWkbiSZbZfsKqll8pfcGCYM5~~Xz99ONpKXMwkfUvGCgGOPtySOKykh7MRA~IQASQAAQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "title": "Филадельфия крем-брюле",
+    "price": 395,
+    "rating": 6
+  }
+
+
+],
+  "snacks" : [
+    {
+      "id": 16,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/298d/3be3/28d82769a8285e05936eebc9adab4817?Expires=1699228800&Signature=Cdjg8dTqkqT0Zgqe8RKjWpRIVZVSP~2kaqGbGwrpkl69argKOX5mTx5v7d~TFFuqjtLL0JY3cgm6VTVZCdW2g3VTEH6Ah1Y4N6xZi0WHuqvGdrLBdINOe1aOSopRrKJpES4teOGotoZFLCLy-OpjvzWoOkHZsabxInUk2WjANvkvUqInQRDXQ0t0S0l6oLxQoTM7Og5gTQcefWX4YuyXE05E6FFOt40V-dD2fJoSr5zfBDd-a37f6aORtYR00~aM7UePHHAqXJwcY4P-wu9Vql3zf88okn8TZavkmN5L0CgGx0mEywlIgQe2ZzeAYtHUNmJOWEecTXA62QAaG2DzpQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Картошка-фри",
+      "price": 300,
+      "rating": 5
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/6d2f/a820/024c9d3d91336673ff4f28c4fe20f12d?Expires=1699228800&Signature=YqwzmDFnco7FjdgGm0CRNQCfw9Hu6BXbMiAwk3lj7S1PfxkkAgtFXXx8ava68KvMSbyLbp5qjUNBTbEjotCJS6STNIPC0-XKFijyCZgxCHPKK8n7B5CYB11Wei7b8qNaO63wfa-rMEB0VYkqmfayfhY7HdYx~02qblGA9fOFAoGbl7mHiElTBATEfyAxk0Y9B8kLUJoK5rqcLBoqah2SxY1GbhHbs7irX2UzYuKo7q6ph0CZCU494TNolIfEm7a5DVDpkbdbbiBo5RxzA8DcRkMW-YnyDRkWNcDqBOMtQ9kAn7nc20ZtBHgnk1trWwYaM307Q4nUjkQwbh~Ts44oQg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Куриные-крылья барбекю",
+      "price": 400,
+      "rating": 6
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/c9d7/8065/de6be4504accd37dc08cf544b37fe57c?Expires=1699228800&Signature=ftza2gDaKGbNDN0omWYxYL7nloo-J6PT7Cm8gyNzUofRkh8b7bBLnMufokPE3AtNzRWFviSxOTHJu2SPFMJJETe4V1F0OeWdUKO6pg8QI1W75Ax--AjRPrxrwGw4ykJQhQAvL1y5bYw1RuiL7bKbHtpPBMcWSPZso50ikjgweGC13gHQR1yGwLs6XYTnB9BTHL7r3eWdCqf-ABb2m5zb0aBnGRjpx31u4F95iBgGLqioZ3TUIKkXsiU7Dj8xuQodswRjcBWLe6isA1ubvcV8oiGjUB8VMGM54fZPOf1V-G2WtyYee~Sjj296~TOZ1z0RB4uwVns~qmxdDoGl0QFSTw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Куриные-кусочки",
+      "price": 430,
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/4c3e/cd33/18d10760a8c1ba2b49d3407d738f4bb8?Expires=1699228800&Signature=V5~UoH~loxPp~ALJx7sAuO~Ux5mYBe5YR9paVpnfK51TKC78JVlrzIoCo2fOg8qIJgVHQjtTt8CHJlcSvLmSYs-pj1ob6Wl5e2XnWrzTO00vark0eropc9M2nQRubyJQGtpOkgnUsMe9Y95Le6f~SFj6OjxcjeTQSQwcPbMqEJuJNtxxYM3twkNjihGc5xW~hV~lb4GMTYO~oqO2astC7GGCThwB4Bc-KGL3K4mj~XCyOFhxfe9k-LJgAPfvRwPHg76SgoM0NOw~r3Oq-8ZhdcIVxCk3bQRx191pCDXARauvaMsTE6u0cIWUMRQRGNPoFQTxX7ndxBnmXQyq5DFDvg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Додстер с ветчиной",
+      "price": 330,
+      "rating": 4
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/4c3e/cd33/18d10760a8c1ba2b49d3407d738f4bb8?Expires=1699228800&Signature=V5~UoH~loxPp~ALJx7sAuO~Ux5mYBe5YR9paVpnfK51TKC78JVlrzIoCo2fOg8qIJgVHQjtTt8CHJlcSvLmSYs-pj1ob6Wl5e2XnWrzTO00vark0eropc9M2nQRubyJQGtpOkgnUsMe9Y95Le6f~SFj6OjxcjeTQSQwcPbMqEJuJNtxxYM3twkNjihGc5xW~hV~lb4GMTYO~oqO2astC7GGCThwB4Bc-KGL3K4mj~XCyOFhxfe9k-LJgAPfvRwPHg76SgoM0NOw~r3Oq-8ZhdcIVxCk3bQRx191pCDXARauvaMsTE6u0cIWUMRQRGNPoFQTxX7ndxBnmXQyq5DFDvg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Додстер",
+      "price": 300,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/8ed02557247946bc83d3c0af51a8d8a9_584x584.webp",
+      "title": "Салат цезарь",
+      "price": 275,
+      "rating": 4
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/03ac3a2a3f3f45758a03155fbc9dd3eb_584x584.webp",
+      "title": "Паста Мясная",
+      "price": 275,
+      "rating": 5
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1be9ccb300964efd8828df11b3bff44d_584x584.webp",
+      "title": "Денвич венчина и сыр",
+      "price": 275,
+      "rating": 4
+    }
+  
+
+  ],
+  "deserts" : [ 
+    {
+      "id": 21,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/33bbe8803b6a41268c6cc3980db0be3a_584x584.webp",
+      "title": "Брауни",
+      "price": 139,
+      "rating": 5
+    },
+    {
+      "id": 22,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_584x584.webp",
+      "title": "Чизкейк Нью-Йорк",
+      "price": 159,
+      "rating": 6
+    },
+    {
+      "id": 23,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2f5502f063ec419898831984d93cddeb_584x584.webp",
+      "title": "Додо-Тарт",
+      "price": 179,
+      "rating": 4
+    },
+    {
+      "id": 24,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f70cbbc6cde147b6b6dd671f38f34c41_584x584.webp",
+      "title": "Шоколадный-кукис",
+      "price": 179,
+      "rating": 3
+    },
+    {
+      "id": 25,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/cb92b92972a14794a8b939e445e07070_584x584.webp",
+      "title": "Фондан",
+      "price": 309,
+      "rating": 5
+    },
+    {
+      "id": 26,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c3687909a9cf4064aabc5b07a166e848_584x584.webp",
+      "title": "Маффин",
+      "price": 99,
+      "rating": 4
+    },
+    {
+      "id": 27,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/254dc5d0d4ca4010a141fac2e4ed27a9_584x584.webp",
+      "title": "Бруслетики",
+      "price": 240,
+      "rating": 4
+    },
+    {
+      "id": 28,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/aaaf00a849a14804ba9264dc7838021e_584x584.webp",
+      "title": "Сырники",
+      "price": 295,
+      "rating": 5
+    }
+
+  ],
+  "drinks" : [
+    {
+      "id": 29,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/7089/b0a2/15f5b670fddbcc03e844a8d92bdd52c5?Expires=1699833600&Signature=ceZpAw~aX8WB1f1vHFQykRAMANHgfNsv4jWnsYilMl4iLO5TKlRHn~aRY4Qny4PS2O4Pb14bLOYUpyXnigaSIENzUL0kuKvALkrxHSOLLvm1RpoGKjG~S1b8RGK4lYdUhlfBcztMd3nX4QpgZ~BQi~waUd0Bk18onh-YsyapZEY8Hl1StWlAj0W3JlWZ2iM6ELGe~C9iciCn4pvLMfD2r~b1SX7Cv7g1k-AHUOHq120LcZKVvoVXpUcQM7GLG~Kc4WjSYm0NuNUhTySYbha3KTrDBQYqbYMeI2nFgUZ8Po-RFeTaeLNcLuym-RXOft3gj2~vK4-FnZSWzv4~ZRcSOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Энергетик Adrenaline",
+      "price": 119,
+      "rating": 5
+
+    },
+    {
+      "id": 30,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/2915/7f38/50e4f7fe2b9ffdb5054c7dca2a8514cf?Expires=1699833600&Signature=cXY2-EVzg3OjP9Xv16aQJxbsSGdC0wvJfoCHSeXNXybSIlN9o3Cybe4ssiw-hNHkIIzfHMnEM-IiochFJA8m0spRV1F43XwlSnQ50Ia3aoVJm~cJQU7H3rTiJX7VWFn5jRLKrIbxkYJwlNN8J2BpArTzBvm-ieaQarUVS0wzY~YlXQsi25vTPs4XFEJTeaUZBhL65g~aQoaoMCWZDKEpPJUx16eK2U386xXcnPudRGfVfaqoREoSYDe17bOjoGdm2q8uK52VQObPB4Pao1LRVrkItA8kfgAAsYiRs044TPwLEPU1n4DAgneeRy4kmr1wugYz5YsDajbaHkPuw8z9AA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Пепси без сахара",
+      "price": 110,
+      "rating": 6
+
+    },
+    {
+      "id": 31,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/874a/c513/38de21268f0a44dd4bc93983b95aed5d?Expires=1699833600&Signature=Mmc4t~ivylEPP42zqB51iIyiFyf6cinr8FTM5tB5wz08gE4j7BzhNLN6TVjVZp9nPsyEf3FT6K0Ns9l6~rDHGKIUGwWJEsrrFnOLSDtyKUrI0e2s4bMIw4v2VekkB2DTEC3CbaUT07ASnaJHU2V7PSj9X3YpgCuuMDXQAx9TRpmzBKJ3pG6NHEH-Wt6u4tz7SpZSLoxsirc3fGDz3NX3XsWyf2H4M0oezTbogfDec3C96Gu31Uh-OFzBaN1Z72JFZAe60VokEZP4auESrLW2F~3jaV5JLi5VQyYM2uHSGaqqZ-3JA4gU8NE59AqurzA2ceBF5i229uEV8spJ0q4tnQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Пепси",
+      "price": 119,
+      "rating": 6
+
+    },
+    {
+      "id": 32,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/b143/1ae0/df5f4d582c841168fe8c1a0bca2a70a2?Expires=1699833600&Signature=g~O-kjQD70p~wY0lytfCqneRWK2PiDY73B2u8d4acbK1TITUoz5YKNf6oxOh5D8QGQuz8KUy9DgZDqtZ6IaZK-Ul8ZfL5LQ2Y4v-bTDRwg5Ikiy0tqiJO7LZgZMRsj~N0KGHKVmnXOxVU9Vh5ihUDOWG0BmDGQTEWNL0iVRnE~6jmI6EaXLBEy5i9hZmUEK44yE0PqiIpP4DnFduIOa-17dh-e1La76Al-9GQwfBBm9WmRdmA1YwHPONKzpFhqWtDPizhk7FdSMcBsv0RUJZ98aTg6HA-48K-hTf4DpzxPnSAphXFRSNQIzqJnSTDUW03NU~xULE8aBFno~tc5H4ow__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Пепси черешня",
+      "price": 119,
+      "rating": 4
+
+    },
+    {
+      "id": 33,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/b143/1ae0/df5f4d582c841168fe8c1a0bca2a70a2?Expires=1699833600&Signature=g~O-kjQD70p~wY0lytfCqneRWK2PiDY73B2u8d4acbK1TITUoz5YKNf6oxOh5D8QGQuz8KUy9DgZDqtZ6IaZK-Ul8ZfL5LQ2Y4v-bTDRwg5Ikiy0tqiJO7LZgZMRsj~N0KGHKVmnXOxVU9Vh5ihUDOWG0BmDGQTEWNL0iVRnE~6jmI6EaXLBEy5i9hZmUEK44yE0PqiIpP4DnFduIOa-17dh-e1La76Al-9GQwfBBm9WmRdmA1YwHPONKzpFhqWtDPizhk7FdSMcBsv0RUJZ98aTg6HA-48K-hTf4DpzxPnSAphXFRSNQIzqJnSTDUW03NU~xULE8aBFno~tc5H4ow__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Пепси без сахара",
+      "price": 110,
+      "rating": 4
+
+    },
+    {
+      "id": 34,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/1ad5/79a4/b3978815645130bc332604eacc2624b7?Expires=1699833600&Signature=lxR~afddo~FZqw7Td3jIULM3aIFO~r5BjwnzUuuFNRQHzj2Uf2PysVuvv1ztNxiekUzmNjT1hM8GEvuKKYxFIC3BzrVJsTqT1dgBTm~whkIORAohoOk9fDAP8Hb1ebc-J2yi-0tGwDijgix6-iBbwEKVQZ~kpkCywPynQaxBifRBX7TUWD0OjCZ1DWfLWPc1pBNuva10lN6tFMYe5whOZc1tqjlZKMebuvxw8zc1aC0QwWGLHo03ckljyj~gO2z5pY5vtuRrdV~-whI5-bAoffD8yjcwFfGM4fcn6ql0aopJUim28knl20uyCkrI-VHV6q-WzWJhaSJ3VWr4pplo~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Mirinda",
+      "price": 119,
+      "rating": 4
+    },
+    {
+      "id": 35,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/7089/b0a2/15f5b670fddbcc03e844a8d92bdd52c5?Expires=1699833600&Signature=ceZpAw~aX8WB1f1vHFQykRAMANHgfNsv4jWnsYilMl4iLO5TKlRHn~aRY4Qny4PS2O4Pb14bLOYUpyXnigaSIENzUL0kuKvALkrxHSOLLvm1RpoGKjG~S1b8RGK4lYdUhlfBcztMd3nX4QpgZ~BQi~waUd0Bk18onh-YsyapZEY8Hl1StWlAj0W3JlWZ2iM6ELGe~C9iciCn4pvLMfD2r~b1SX7Cv7g1k-AHUOHq120LcZKVvoVXpUcQM7GLG~Kc4WjSYm0NuNUhTySYbha3KTrDBQYqbYMeI2nFgUZ8Po-RFeTaeLNcLuym-RXOft3gj2~vK4-FnZSWzv4~ZRcSOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Энергетик Adrenaline",
+      "price": 119,
+      "rating": 5
+
+    },
+    {
+      "id": 36,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/2915/7f38/50e4f7fe2b9ffdb5054c7dca2a8514cf?Expires=1699833600&Signature=cXY2-EVzg3OjP9Xv16aQJxbsSGdC0wvJfoCHSeXNXybSIlN9o3Cybe4ssiw-hNHkIIzfHMnEM-IiochFJA8m0spRV1F43XwlSnQ50Ia3aoVJm~cJQU7H3rTiJX7VWFn5jRLKrIbxkYJwlNN8J2BpArTzBvm-ieaQarUVS0wzY~YlXQsi25vTPs4XFEJTeaUZBhL65g~aQoaoMCWZDKEpPJUx16eK2U386xXcnPudRGfVfaqoREoSYDe17bOjoGdm2q8uK52VQObPB4Pao1LRVrkItA8kfgAAsYiRs044TPwLEPU1n4DAgneeRy4kmr1wugYz5YsDajbaHkPuw8z9AA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Пепси без сахара",
+      "price": 110,
+      "rating": 6
+
+    }
+  ],
+  "sauces": [
+    {
+      "id": 37,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0647e48e57544226a7eacfa1d5b401dd_584x584.webp",
+      "title": "Чесночный соус",
+      "price": 45,
+      "rating": 5
+
+    },
+    {
+      "id": 38,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/d5e1787652a445b8ab4a57e912e79a3d_584x584.webp",
+      "title": "Сырный соус",
+      "price": 45,
+      "rating": 6
+
+    },
+    {
+      "id": 39,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/12cbd86b8f3a4a6593602940d2e65bd9_584x584.webp",
+      "title": "Барбекю",
+      "price": 45,
+      "rating": 5
+
+    },
+    {
+      "id": 40,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1df59b18612a4ddd9b761b447fe3f41f_584x584.webp",
+      "title": "Малиновое варенье",
+      "price": 45,
+      "rating": 4
+
+    }
+
+  ],
+  "kombo": [
+    {
+      "id": 41,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/64da/e7c6/23e5b51446ee08ee4ec6561c9c642a0b?Expires=1699833600&Signature=N8HxOK46sHjmIIwGZLbw2xAS4nbEhDyrlOsVyynnt8IvQw2XdfG99bRNDam29J0dvo6QQH4pMk~u~6z6K6~msF7Dh4e6NivI2CL2X5L4gjBarLe8bbMVHK2NyIeTwZfg7FNvmJRUqtw6sQbqnj1ezO24kI6sEvCxXGEbb3I~DQBArQGgggl8pZgZOHJoI96dFsrNsRQtc~-uKSIN~JZGe0F-rW2dAdNJOrqwelS~q4c1FFkHf3yBOTZXsys35erqcb9WRDycEmHbGYNnVFtNnOzwNOGt9DOsr4P9mexXTyMdTw1AKJ3vISR9M~lrm8A48JYiIcglSbIjK-JZiXcZrw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Две средних пиццы (Скидка до 20%)",
+      "price": 989,
+      "rating": 5
+      
+    },
+    {
+      "id": 42,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/9ace/5925/b66dd79fb6fed1174b2293e6058897ac?Expires=1699833600&Signature=pugoHbDf9wH1jRNIVy4VQivhULr3z0q32Bd4AZyUocBgcC3E8gYcVIiCq2xYIrerQLNnL-iBtM8gJas0tfLf2jCRzQh1VqrL01jUR4TQ4T-lZ3zBmki~EM0f1WbCI0UvGnBNJp29k~cSC-6LmBWFxO~IjDKPP5DiMRVQXEacIqOzWvF1TGiH74e8nBRsCPzqvSYb3-TLnhMh38xxc7yO7VFXDgUkpJ2MpwShCTZ8hT03nvI0IF~jlTOZGZGmCDpEQKcO3OLg9zJNOO3paevNvRS48rqIqgj3KRp1Qpb6fV~Ff54Rpn-j4teNvnSI9gChcIyxw~DazKg7WMfvF-oHtw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "Три маленьких пиццы (Скидка до 18%)",
+      "price": 799,
+      "rating": 6
+      
+    },
+    {
+      "id": 43,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/0481/0ee3/07831c972065553eef2e15b97a8a5540?Expires=1699833600&Signature=qZKqeav-qKWG3A9MYXWQI4MnVyxs6FxrMCDfTwqL6T4ZcMtAFEmoNmVzz8iA3xEOmeCBCHT2YZpAa2ymTNOWmSZpHd40tDm-1DaQDsoKJC8kOh-oFeRsPsBmRBJcb0eKkgMfIAN97KfnG0GUgdofTQANEUpcGEpP5gdRvysX7uncKOK53nQY0kwotPO6btLAtfkjey7j1HFVcEvRBWZ21dBYLM2nttngkzRiRnDGh7TQNvLCMLsSxeCMxfh~PsItDCW7wlNtlXwMCXIWuRfjooXPVyKSvs~xh4MpJolvHvwenDVxShrGXU1giHpMXTXZ62Go43OrkVWkLNh8K2hfJg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "2 пиццы и напиток",
+      "price": 839,
+      "rating": 5
+      
+    },
+    {
+      "id": 44,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/d025/522d/cb5404d94ad1ad43ee5bd4b002a4226d?Expires=1699833600&Signature=eYZU-9FHlQTQFZk8Fu6UwI0C3mAoMoclShlXAHCGY5KyDr9HGIYeqGm2WzCsPoJptCdjzuTR-2Ft9qMrr86N1ANLyuqTbQ~D-8cmnd5rLOv2YTxJPQ9rTOXmgjB0AFpIh8eTPMAc5VuiDNSOWiIJqKYoopayww5wLt52i9tn5EFbfn~UeBxyZiQjwJxp-blNx-UmUjn5W9shdHCRFZDmarboAS~Ry1NPpC9PjHXKaSnFrxpiC9dDryGy~a~FwSrihywRjzl1yWktxm1ilByMsCEelkNzx7c~DMc4m~z2e9JkL1UQ8QNqrRSciXraV0wT7yOdRgO9HptwSORLU3ckTw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "title": "4 закуски",
+      "price": 839,
+      "rating": 3
+      
+    }
+  ]
+
+
+}
+]
+
+
+
+
+
+ 
+  
+
+  
+
+
+

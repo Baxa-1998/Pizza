@@ -1,0 +1,19 @@
+.wrapper{
+  color: white;
+
+
+  li{
+    color: white;
+   button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    &:hover{
+      background: #ff5722;
+      color: #fff;
+    }
+  
+   }
+  }
+}

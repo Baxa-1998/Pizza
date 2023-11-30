@@ -1,0 +1,65 @@
+@import "../../scss/variables";
+.wrapper{
+  display: flex; 
+  align-items: center; 
+  height: 80px; 
+  border-radius: 8px; 
+  margin-top: 30px;  
+  position: relative;
+   
+  .input{
+
+    border: 1px solid #F0F0F0;
+    width: 400px;
+    height: 48px; 
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 300ms;
+
+    &:focus{
+      border: 1px solid rgb(0, 0, 0,0.2);
+  
+    }
+
+    
+  }
+  .search{ 
+    position: absolute;
+    left: 10px;
+    opacity: 0.5;
+  
+
+
+  }
+  .close {
+    position: absolute;
+    left: 370px;
+    opacity: 0.5;
+    &:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+  .btn{
+    width: 150px; 
+    height: 48px; 
+    border-radius: 6px;
+    background: #FF7010; 
+    &:hover{
+      background-color: darken($orange, 8%);
+   
+
+    }
+    &:active{
+      background-color: darken($orange, 12%);
+      transform: translateY(1px)
+
+    }
+    
+
+
+  }
+
+}

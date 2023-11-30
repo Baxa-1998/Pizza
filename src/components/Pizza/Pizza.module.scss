@@ -1,0 +1,53 @@
+.ingredients{
+  position: relative;
+  display: flex;
+  
+  justify-content: center; 
+  align-items: center;
+  width: 100px;
+  height: 100px; 
+  border: 1px solid #F0F0F0; 
+  border-radius: 12px;
+  margin-top: 16px;
+  transition: 300ms ease-out;
+  &:hover{
+    border: 1px solid #FF7010; 
+  }
+  img{
+    widows: 80px;
+    height: 80px;
+  }
+
+  .checkbox{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: none;
+
+  }
+  .active{
+    display: block;
+  }
+  
+
+
+  
+}
+
+
+
+.btn{
+  padding: 13px 32px; 
+  background: #FF7010; 
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 100ms ease-in;
+  &:hover{
+    background: #e05c03;
+   
+  }
+
+}
