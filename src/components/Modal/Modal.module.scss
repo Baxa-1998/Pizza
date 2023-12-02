@@ -23,7 +23,7 @@
 
 
   transition: 500ms;
-  z-index: 5; 
+  z-index: 999; 
 
   .content{
     display: flex; 
@@ -173,9 +173,38 @@ justify-content: center;
       height: 35%;
       .mediumSize img{
         width: 40%;
+        margin-left: 50%;
+        transform: translate(-50%);
       
       }
     }
 
   }
+}
+@media (max-width: 440px){
+  .wrapper .content{
+    svg{
+      fill: black;
+      position: absolute;
+      right: 50px;
+      top: 5px;
+    }
+    .modal{
+      width: 80%;
+      min-height: 650px;
+      margin: 0 auto;
+      .modalLeft{
+        .mediumSize{
+          img{
+            width: 60%;
+          }
+
+        }
+       
+      }
+     
+    }
+
+  } 
+ 
 }

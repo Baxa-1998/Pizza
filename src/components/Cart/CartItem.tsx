@@ -44,7 +44,8 @@ export const CartItem: React.FC<TProps> = ({ id, title, imageUrl, price, count, 
       <div className="cart__item-img">
         <img className="pizza-block__image" src={imageUrl} alt="Pizza" />
       </div>
-      <div className="cart__item-info">
+      <div className='w-[60%]  md:flex w-[40%]'> 
+        <div className="cart__item-info">
         <h3>{title}</h3>
         <p>{type}, 26 см.</p>
       </div>
@@ -86,6 +87,9 @@ export const CartItem: React.FC<TProps> = ({ id, title, imageUrl, price, count, 
           </svg>
         </div>
       </div>
+      </div>
+     
+
       <div className="cart__item-price">
         <b>{price * count} ₽</b>
       </div>

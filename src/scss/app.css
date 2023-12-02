@@ -569,6 +569,11 @@ body {
   border-color: #2a2a2a;
   background-color: #2a2a2a;
 }
+@media (max-width-1152px) {
+  .cart .cart__item .cart__item-info {
+    margin: 0 auto;
+  }
+}
 .cart__bottom {
   margin: 50px 0;
 }

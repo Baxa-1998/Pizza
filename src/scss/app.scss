@@ -180,7 +180,7 @@ body {
     background: #fff; 
     margin-top: 30px;
     padding-top: 16px;
-    
+    justify-content: space-around;
     padding-right: 24px; 
     padding-bottom: 16px;
 
@@ -201,6 +201,7 @@ body {
       flex-direction: column;
       justify-content: center;
       width: 40%;
+      margin-right: 80px;
 
       h3 {
         font-weight: bold;
@@ -213,13 +214,15 @@ body {
         font-size: 18px;
         color: #8d8d8d;
       }
+    
     }
+
 
     &-count {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 13%;
+      width: 25%;
 
       &-minus {
         svg {
@@ -298,6 +301,45 @@ body {
         }
       }
     }
+  }
+
+  @media (max-width: 1152px) {
+    .cart__item{
+      padding-left: 15px;
+      .cart__item-info{
+        margin: 0 auto;
+      }
+      .cart__item-count{
+        margin: 0 auto;
+        width: 30%;
+      }
+
+
+    }
+   
+    
+
+
+    
+  }
+  @media (max-width: 768px){
+    .cart__item{
+      .cart__item-img{
+        width: 20%;
+      }
+
+
+    }
+    .cart__bottom-buttons .go-back-btn{
+      width: 200px;
+    }
+    .cart__bottom-buttons .pay-btn{
+      width: 170px;
+    }
+    .content__title{
+      font-size: 30px;
+    }
+    
   }
 
   &__bottom {
